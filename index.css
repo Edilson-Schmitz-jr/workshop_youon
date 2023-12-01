@@ -1,0 +1,83 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d2d2d2;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.img_plano_de_fundo {
+    position: absolute;
+    width: 100%;
+    filter: blur(5px) brightness(50%);
+    z-index: 1;
+}
+.container_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    z-index: 999;
+}
+.img_superior_template {
+    width: 80%;
+    box-shadow: 0 0 40px #3d3d3d;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.tela_de_carregamento {
+    display: flex;
+    justify-content: center;
+    background-color: #83D6C1;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    position: absolute;
+    transition: .2;
+    opacity: 1;
+}
+.tela_de_carregamento.active {
+    pointer-events: none;
+    transition: .2;
+    display: flex;
+    justify-content: center;
+    background-color: #83D6C1;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    position: absolute;
+    transition: .2;
+    opacity: 0;
+    animation: fade .4s;
+}
+@keyframes fade {
+    from {
+
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.logo_tela_de_carregamento {
+    width: 280px;
+    animation: load 2s alternate ease;
+}
+@keyframes load {
+    from {
+        scale: .2;
+    }
+    
+}
+
