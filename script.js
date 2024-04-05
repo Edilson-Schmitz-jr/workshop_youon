@@ -11,4 +11,4 @@ var u = setInterval(function () {
     document.querySelector('.video_class_welc').classList.add("active");
     document.querySelector('.img_plano_de_fundo').classList.add("active");
     document.querySelector('.video_class_welc').pause();
-}, 38000);
+}, 40000);
