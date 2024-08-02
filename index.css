@@ -32,6 +32,7 @@ body {
 .img_superior_template {
     width: 80%;
     box-shadow: 0 0 40px #3d3d3d;
+    margin: auto auto;
 }
 
 header {
