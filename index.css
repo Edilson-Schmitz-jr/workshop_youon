@@ -94,7 +94,7 @@ header {
 
 .logo_tela_de_carregamento {
     width: 280px;
-    animation: load 2s alternate ease;
+    animation: load 1s alternate ease;
 }
 @keyframes load {
     from {

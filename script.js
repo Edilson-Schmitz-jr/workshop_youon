@@ -4,7 +4,7 @@ var i = setInterval(function () {
     clearInterval(i);
     document.getElementById("load_screen").classList.add("active");
     document.querySelector('.video_class_welc').play();
-}, 2500);
+}, 1700);
 
 // var u = setInterval(function () {
 //     clearInterval(i);
