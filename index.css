@@ -16,7 +16,7 @@ body {
 .img_plano_de_fundo {
     position: absolute;
     width: 100%;
-    /* filter: blur(4px) brightness(50%); */
+    filter: blur(4px) brightness(50%);
     z-index: 1;
     scale: 1;
     transition: .5s ease-in-out;
@@ -33,6 +33,7 @@ body {
     width: 80%;
     box-shadow: 0 0 40px #3d3d3d;
     margin: auto auto;
+    border-radius: 15px;
 }
 
 header {
