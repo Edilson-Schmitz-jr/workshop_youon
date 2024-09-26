@@ -30,7 +30,7 @@ body {
     z-index: 999;
 }
 .img_superior_template {
-    width: 80%;
+    width: 92%;
     box-shadow: 0 0 40px #3d3d3d;
     margin: auto auto;
     border-radius: 15px;
@@ -94,7 +94,7 @@ header {
 
 .logo_tela_de_carregamento {
     width: 280px;
-    animation: load 1s alternate ease;
+    animation: load .8s alternate ease;
 }
 @keyframes load {
     from {
