@@ -18,8 +18,12 @@ body {
     width: 100%;
     /* filter: blur(4px) brightness(50%); */
     z-index: 1;
-    scale: 1.2;
+    scale: .9;
     transition: .5s ease-in-out;
+}
+
+.img_plano_de_fundo_image {
+    border-radius: 20px;
 }
 .container_principal {
     display: flex;
