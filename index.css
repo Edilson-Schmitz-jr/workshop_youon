@@ -40,7 +40,7 @@ body {
     margin: auto auto;
     border-radius: 15px;
     animation: load ease-in-out 1.2s;
-    animation-delay: 1s;
+    animation-delay: .9s;
 }
 
 header {
