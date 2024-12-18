@@ -41,7 +41,7 @@ body {
     border-radius: 15px;
     animation: load ease-in-out 1.2s;
     animation-delay: .8s;
-    animation: pulse .7s ease-out infinite alternate;
+    animation: puls .7s ease-out infinite alternate;
 }
 
 @keyframes pulse {
