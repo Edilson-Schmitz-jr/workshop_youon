@@ -35,24 +35,25 @@ body {
     z-index: 999;
 }
 .img_superior_template {
-    width: 92%;
-    box-shadow: 0 0 40px #333333;
+    width: 94%;
+    display: flex;
+    /* box-shadow: 0 0 40px #333333; */
     margin: auto auto;
     border-radius: 15px;
     animation: load ease-in-out 1.2s;
     animation-delay: .8s;
-    animation: puls .7s ease-out infinite alternate;
+    animation: pulse .7s ease-out infinite alternate;
 }
 
 @keyframes pulse {
 
     from {
-        scale: .95;
+        transform: translateY(5px);
         transition: .7s; 
     }
     to {
         transition: .7s;
-        scale: 1;
+        transform: translateY(-5px);
     }
 }
 
@@ -119,6 +120,9 @@ header {
 @keyframes load {
     from {
         scale: .2;
+    }
+    to {
+        scale: 1;
     }
     
 }
