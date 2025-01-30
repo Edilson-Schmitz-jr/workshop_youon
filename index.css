@@ -42,18 +42,18 @@ body {
     border-radius: 15px;
     animation: load ease-in-out 1.2s;
     animation-delay: .8s;
-    animation: pulse .7s ease-out infinite alternate;
+    animation: pulse .7s ease infinite alternate;
 }
 
 @keyframes pulse {
 
     from {
-        transform: translateY(5px);
+        scale: .95;
         transition: .7s; 
     }
     to {
         transition: .7s;
-        transform: translateY(-5px);
+        scale: 1;
     }
 }
 
