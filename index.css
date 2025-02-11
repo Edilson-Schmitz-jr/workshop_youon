@@ -48,7 +48,7 @@ body {
 @keyframes pulse {
 
     from {
-        scale: .95;
+        scale: .98;
         transition: .7s; 
     }
     to {
